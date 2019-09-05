@@ -48,7 +48,7 @@ public class Triangulo extends Poligono {
 
     @Override
     public void GetData() {
-        System.out.println("Triangulo");
+        System.out.println("Triangulo, Id: " + getId());
     }
 
     @Override

@@ -17,8 +17,8 @@ public class ProjetoPoligono {
     public static void main(String[] args) {
         Desenho d = new Desenho("Poligonos");
         d.getPoligonos().add(new Triangulo(10, 10, 6, 1));
-        d.getPoligonos().add(new Circunferencia(35, 1));
-        d.getPoligonos().add(new Retangulo(10, 2, 1));
+        d.getPoligonos().add(new Circunferencia(35, 2));
+        d.getPoligonos().add(new Retangulo(10, 2, 3));
         d.MostrarPoligonos();
     }
 

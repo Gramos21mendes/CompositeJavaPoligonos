@@ -38,7 +38,7 @@ public class Retangulo extends Poligono {
 
     @Override
     public void GetData() {
-        System.out.println("Retangulo");
+        System.out.println("Retangulo, Id: " + getId());
     }
 
     @Override

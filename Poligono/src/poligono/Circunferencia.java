@@ -30,7 +30,7 @@ public class Circunferencia extends Poligono {
 
     @Override
     public void GetData() {
-        System.out.println("Circunferencia");
+        System.out.println("Circunferencia, Id: " + getId());
     }
 
     @Override
